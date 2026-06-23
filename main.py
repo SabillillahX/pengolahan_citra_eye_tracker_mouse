@@ -48,7 +48,6 @@ def eye_aspect_ratio(landmarks, eye_indices):
         return 0.0
     return (vertical_1 + vertical_2) / (2.0 * horizontal)
 
-# --- PERBAIKAN UKURAN WINDOW & MATIKAN MENU KLIK KANAN ---
 cv2.namedWindow('Eye Controlled Mouse', cv2.WINDOW_NORMAL | cv2.WINDOW_GUI_NORMAL)
 cv2.resizeWindow('Eye Controlled Mouse', 800, 600)
 
